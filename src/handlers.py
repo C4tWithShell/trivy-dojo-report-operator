@@ -24,6 +24,7 @@ def check_allowed_reports(report: str):
         "exposedsecretreports",
         "infraassessmentreports",
         "rbacassessmentreports",
+        "clustercompliancereports",
     ]
 
     if report not in allowed_reports:
